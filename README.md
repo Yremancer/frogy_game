@@ -10,4 +10,4 @@
 ```
 [KV page repository](https://github.com/Yremancer/doragaya_kakashulya/tree/main)
 
-![image](жабка.jpg)
+![image](assets/amogus.png)

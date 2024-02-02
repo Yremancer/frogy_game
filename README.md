@@ -8,6 +8,6 @@
     2. two
     3. three
 ```
-[KV page repository](https://github.com/Yremancer/doragaya_kakashulya/tree/main)
+[KV page](https://yremancer.github.io/doragaya_kakashulya/)
 
 ![image](assets/amogus.png)

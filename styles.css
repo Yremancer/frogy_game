@@ -1,0 +1,116 @@
+@font-face {
+    font-family: pepa;
+    src: url(/way_number_two/assets/fonts/ProtestRiot-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: pepa;
+}
+
+
+.container {
+    
+}
+
+.header {   
+    display: flex;  
+    background-color: #4F81DA;
+}
+
+.logo {
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+}
+
+.logo-img {
+    width: 70px;
+    margin: 0;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    order: 2;
+    margin: 0 auto;
+}
+
+.main {
+    height: 700px;
+    background: url(assets/main-back.png) center/cover no-repeat;
+}
+
+.screenshots {
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.screen {
+    width: 400px;
+    height: 200px;
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.454);
+    border: 3px groove rgb(42, 255, 170);
+    
+    /* object-fit: cover; */
+}
+.menu {
+    display: flex;
+    gap: 10px;
+}
+.menu-text {
+    max-width: 200px;
+    align-self: center;
+}
+
+.first{
+    display: flex;
+    gap: 10px;
+}
+
+.first-screen {
+
+}
+
+.first-text {
+    align-self: center;
+    max-width: 200px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #E3BC6B;
+    justify-content: center;
+    align-items: center;
+}
+
+.download_button {
+    margin: 10px;
+    width: 200px;
+    font-size: 2em;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: rgb(43, 226, 137);
+    text-decoration: none;
+    color: beige;
+    text-align: center;
+    font-family: pepa;
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.454);
+}
+
+
+
+/* name duration timing-function delay iteration-count direction fill-mode */

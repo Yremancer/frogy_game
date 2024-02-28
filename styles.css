@@ -28,6 +28,7 @@ body {
     flex-direction: column;
     justify-content: center;
     margin: 5px;
+    margin-right: 0px;
 }
 
 .logo-img {
@@ -43,49 +44,51 @@ body {
 }
 
 .main {
-    height: 700px;
+    display: flex;
+    flex-direction: column;
+    min-height: 700px;
     background: url(assets/main-back.png) center/cover no-repeat;
 }
-
-.screenshots {
-    position: relative;
-    top: 20px;
+.indroduction {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 10px;
+
+}
+.introduction-img {
+    margin-top: 20px;
+    width: 650px;
+    height: 400px;
 }
 
-.screen {
+.indroduction-text {
     width: 400px;
-    height: 200px;
-    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.454);
-    border: 3px groove rgb(42, 255, 170);
-    
-    /* object-fit: cover; */
 }
-.menu {
+
+.pictures-frog-and-arrow {
     display: flex;
-    gap: 10px;
+    justify-content: center;
 }
-.menu-text {
-    max-width: 200px;
+
+.tadpoel {
+    width: 100px;
+    margin-right: 40px;
+}
+.arrow {
+    margin: 0;
+}
+
+.frog {
+    width: 300px;
+    margin: 0;
+}
+
+.gameplay-show {
     align-self: center;
 }
 
-.first{
-    display: flex;
-    gap: 10px;
-}
-
-.first-screen {
-
-}
-
-.first-text {
-    align-self: center;
-    max-width: 200px;
+.gameplay-gif {
 }
 
 .footer {

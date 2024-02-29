@@ -63,16 +63,34 @@ body {
 }
 
 .indroduction-text {
+    text-align: center;
     width: 400px;
+}
+
+.frog-develop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 10px;
 }
 
 .pictures-frog-and-arrow {
     display: flex;
     justify-content: center;
+    margin-bottom:15px;
 }
 
 .tadpoel {
-    width: 100px;
+    width: 250px;
+    margin: 0;
+    margin-right:-60px;
+}
+
+.tadpoel-hand {
+    margin-left: 40px;
+    width: 150px;
+    height: 250px;
     margin-right: 40px;
 }
 .arrow {
@@ -83,6 +101,63 @@ body {
     width: 300px;
     margin: 0;
 }
+
+.frog-develop-text {
+    text-align: center;
+    width: 400px;
+}
+
+.realistic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.realistic-show {
+    display: flex;
+    justify-content: center;
+}
+.realistic-frog {
+    display: flex;
+    justify-content: center;
+}
+
+.realistic-frog-ingame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.frog {
+
+}
+
+.realistic-frog-real{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.real-frog {
+    width: 300px;
+}
+
+.realistic-tadpoel {
+    display: flex;
+}
+.tadpoel {
+
+}
+.real-tadpoel {
+    width: 300px;
+    height: 200px;
+}
+
+.text-realistic {
+    text-align: center;
+    width: 400px;
+}
+
 
 .gameplay-show {
     align-self: center;

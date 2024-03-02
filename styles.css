@@ -37,10 +37,34 @@ body {
 }
 
 .title{
+    position: relative;
     display: flex;
     align-items: center;
     order: 2;
     margin: 0 auto;
+}
+
+.cloud-title {
+    position: absolute;
+    left: -15px;
+    width: 195px;
+    height: 100%;
+}
+
+.cloud-first {
+    position: absolute;
+    left: 1200px;
+    align-self: center;
+    width: 140px;
+    height: 90px;
+}
+
+.cloud-second {
+    position: absolute;
+    left: 250px;
+    align-self: center;
+    width: 140px;
+    height: 90px;
 }
 
 .main {
@@ -83,19 +107,17 @@ body {
 }
 
 .tadpoel {
-    width: 250px;
+    width: 90px;
     margin: 0;
-    margin-right:-60px;
+    height: 240px;
 }
 
 .tadpoel-hand {
-    margin-left: 40px;
     width: 150px;
-    height: 250px;
-    margin-right: 40px;
+    height: 260px; 
 }
 .arrow {
-    margin: 0;
+    margin: 10px;
 }
 
 .frog {
@@ -127,10 +149,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 30px;
 }
 
 .frog {
-
+    width: 250px;
+    height: 200.05px;
 }
 
 .realistic-frog-real{
@@ -145,17 +169,19 @@ body {
 
 .realistic-tadpoel {
     display: flex;
+    margin-left: 90px ;
 }
 
 .realistic-tadpoel-ingame {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 30px;
 }
 
 .tadpoel-game {
-    width: 300px;
-    height: 206.5px;
+    width: 90px;
+    height: 200.5px;
 }
 
 .realistic-tadpoel-real {
@@ -189,19 +215,38 @@ body {
     justify-content: center;
     align-items: center;
     gap: 15px;
+}
+
+.instruction-first {
+    display: flex;
+}
+
+.instuction-img-first {
 
 }
-.instuction-img-first {
-    width: 287px;
-}
-.instuction-img-second {
-    width: 400px;
-}
-.instuction-text {
+
+.instuction-text-first {
+    position: relative;
+    left: 93px;
     width: 400px;
     align-self: center;
     text-align: center;
 }
+
+.instuction-text-second {
+    width: 400px;
+    align-self: center;
+    text-align: center;
+}
+
+.instruction-second {
+    display: flex;
+}
+
+.instuction-img-second {
+    width: 400px;
+}
+
 
 .footer {
     display: flex;
@@ -212,29 +257,33 @@ body {
 }
 
 .download_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     left: 150px;
-    margin: 10px;
+    background: url(assets/treasure.png) center/cover no-repeat;
     width: 200px;
-    font-size: 2em;
-    border: 2px solid black;
-    border-radius: 30px;
-    padding: 10px;
-    background-color: rgb(43, 226, 137);
-    text-decoration: none;
-    color: beige;
+    height: 145px;
     text-align: center;
-    font-family: pepa;
-    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.454);
+    text-decoration: none;
 }
 
+.treasure {
+    width: 200px;
+    height: 145px;
+}
 
-
-
+.text-in-treasure {
+    color: rgb(0, 195, 255);
+    
+    font-size: 2em;
+}
 
 .bubbles {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .bubble-left-group {
@@ -247,24 +296,35 @@ body {
 }
 
 .bubble-left-1 {
-    animation: fly 5s infinite 0.8s;
+    animation: fly 4s infinite 0.8s;
 }
 
 .bubble-left-2 {
-    animation: fly 5s infinite;
+    animation: fly 4s infinite;
 }
 
 .bubble-left-12 {
     display: flex;
 }
 
-
 .bubble-left-3 {
-    animation: fly 5s infinite 3s;
+    animation: fly 4s infinite 3s;
 }
 
 .bubble-left-4 {
-    animation: fly 5s infinite 2s;
+    animation: fly 4s infinite 2s;
+}
+
+.bubble-left-13 {
+    display: flex;
+}
+
+.bubble-left-5 {
+    animation: fly 4s infinite 4.6s;
+}
+
+.bubble-left-6 {
+    animation: fly 4s infinite 3.7s;
 }
 
 .bubble1-img {
@@ -276,11 +336,11 @@ body {
 }
 
 .bubble-right-1 {
-    animation: fly 5s infinite 0.4s;
+    animation: fly 4s infinite 0.4s;
 }
 
 .bubble-right-2 {
-    animation: fly 5s infinite 0.7s;
+    animation: fly 4s infinite 0.7s;
 }
 
 .bubble-right-12 {
@@ -288,11 +348,23 @@ body {
 }
 
 .bubble-right-3 {
-    animation: fly 5s infinite 1.4s;
+    animation: fly 4s infinite 1.4s;
 }
 
 .bubble-right-4 {
-    animation: fly 5s infinite 2s;
+    animation: fly 4s infinite 2.3s;
+}
+
+.bubble-right-13 {
+    display: flex;
+}
+
+.bubble-right-5 {
+    animation: fly 4s infinite 2.9s;
+}
+
+.bubble-right-6 {
+    animation: fly 4s infinite 3.5s;
 }
 
 .bubble2-img {
@@ -305,7 +377,7 @@ body {
         translate: 0 0px;
     }
     100% {
-        translate: 0 -2125px;
+        translate: 0 -2425px;
     }
 }
 

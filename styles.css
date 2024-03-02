@@ -185,11 +185,16 @@ body {
 
 .instuction {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 15px;
 
 }
-.instuction-img {
+.instuction-img-first {
+    width: 287px;
+}
+.instuction-img-second {
     width: 400px;
 }
 .instuction-text {
@@ -208,7 +213,7 @@ body {
 
 .download_button {
     position: relative;
-    order: 1;
+    left: 150px;
     margin: 10px;
     width: 200px;
     font-size: 2em;
@@ -232,7 +237,12 @@ body {
     justify-content: space-between;
 }
 
-.bubble-left {
+.bubble-left-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.bubble-left-11 {
     display: flex;
 }
 
@@ -244,10 +254,24 @@ body {
     animation: fly 5s infinite;
 }
 
+.bubble-left-12 {
+    display: flex;
+}
+
+
+.bubble-left-3 {
+    animation: fly 5s infinite 3s;
+}
+
+.bubble-left-4 {
+    animation: fly 5s infinite 2s;
+}
+
 .bubble1-img {
     width: 50px;
 }
-.bubble-right {
+
+.bubble-right-11 {
     display: flex;
 }
 
@@ -256,12 +280,25 @@ body {
 }
 
 .bubble-right-2 {
-    animation: fly 5s infinite;
+    animation: fly 5s infinite 0.7s;
+}
+
+.bubble-right-12 {
+    display: flex;
+}
+
+.bubble-right-3 {
+    animation: fly 5s infinite 1.4s;
+}
+
+.bubble-right-4 {
+    animation: fly 5s infinite 2s;
 }
 
 .bubble2-img {
     width: 50px;
 }
+
 
 @keyframes fly {
     0% { 

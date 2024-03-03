@@ -9,12 +9,15 @@
 
 body {
     margin: 0;
-    font-family: pepa;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    /* text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.647); */
 }
 
 
 .container {
-    background: url(assets/main-back.png) center/cover no-repeat;
+    background: url(assets/main-back.webp) center/cover no-repeat;
 }
 
 .header {   
@@ -34,6 +37,10 @@ body {
 .logo-img {
     width: 70px;
     margin: 0;
+}
+
+.logo-text {
+    font-size: 0.8em;
 }
 
 .title{
@@ -71,6 +78,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 700px;
+    gap: 100px;
     
     
 }
@@ -79,17 +87,34 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 
 }
 .introduction-img {
     margin-top: 20px;
     width: 650px;
     height: 400px;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.333);
 }
 
 .indroduction-text {
-    text-align: center;
-    width: 400px;
+    width: 600px;
+}
+
+.text-border {
+    border: 2px solid black;
+    background-color: rgba(76, 186, 74, 0.782);
+    border-radius: 30px;
+    padding: 15px;
+    box-shadow: 1.5px 1.5px 8px 0 rgba(0, 0, 0, 0.554);
+
+}
+
+.text-border1 {
+    border: 2px solid black;
+    background-color: rgba(235, 164, 43, 0.782);
+    border-radius: 10px;
+    padding: 15px;
 }
 
 .frog-develop {
@@ -126,8 +151,7 @@ body {
 }
 
 .frog-develop-text {
-    text-align: center;
-    width: 400px;
+    width: 460px;
 }
 
 .realistic{
@@ -143,6 +167,7 @@ body {
 .realistic-frog {
     display: flex;
     justify-content: center;
+    
 }
 
 .realistic-frog-ingame{
@@ -165,6 +190,7 @@ body {
 
 .real-frog {
     width: 300px;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.333);
 }
 
 .realistic-tadpoel {
@@ -192,13 +218,12 @@ body {
 .real-tadpoel {
     width: 300px;
     height: 200px;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.333);
 }
 
-
-
 .text-realistic {
-    text-align: center;
-    width: 400px;
+    width: 500px;
+    text-align: right;
 }
 
 
@@ -227,24 +252,24 @@ body {
 
 .instuction-text-first {
     position: relative;
-    left: 93px;
+    left: 160px;
     width: 400px;
     align-self: center;
-    text-align: center;
 }
 
 .instuction-text-second {
     width: 400px;
     align-self: center;
-    text-align: center;
 }
 
 .instruction-second {
     display: flex;
+    gap: 20px;
 }
 
 .instuction-img-second {
-    width: 400px;
+    width: 500px;
+    height: 250px;
 }
 
 
@@ -276,8 +301,9 @@ body {
 
 .text-in-treasure {
     color: rgb(0, 195, 255);
-    
     font-size: 2em;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.673);
+    text-align: center;
 }
 
 .bubbles {
@@ -320,11 +346,11 @@ body {
 }
 
 .bubble-left-5 {
-    animation: fly 4s infinite 4.6s;
+    animation: fly 4s infinite 4.4s;
 }
 
 .bubble-left-6 {
-    animation: fly 4s infinite 3.7s;
+    animation: fly 4s infinite 3.3s;
 }
 
 .bubble1-img {
@@ -377,7 +403,7 @@ body {
         translate: 0 0px;
     }
     100% {
-        translate: 0 -2425px;
+        translate: 0 -3450px;
     }
 }
 
